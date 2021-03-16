@@ -1,0 +1,31 @@
+1 - Entre com o valor em Var_A
+2- Entre com o valor em Var_B
+3 - Armazene o valor de Var_A em Var_tmp: Var_tmp = Var_A
+4- Calcule o novo valor de Var_A: Var_A = Var_B
+5 - Calcule o novo valor de Var_B: Var_B = Var_tmp
+6- Mostre o valor de Var_A
+7- Mostre o valor de Var_B
+
+
+
+
+#include <stdio.h>
+
+int main() {
+  
+int var_A, var_B, var_tmp;
+
+printf("entre com valor de Var A: \n");
+scanf("%i", &var_A);
+
+printf("entre com valor de Var B: \n");
+scanf("%i", &var_B);
+
+var_tmp = var_A;
+var_A = var_B;
+var_B = var_tmp;
+
+printf("Var A: %i | Var B:  %i\n", var_A, var_B );
+
+  return 0;
+}
