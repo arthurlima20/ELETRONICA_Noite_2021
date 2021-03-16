@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+  
+int var_A, var_B, var_tmp;
+
+printf("entre com valor de Var A: \n");
+scanf("%i", &var_A);
+
+printf("entre com valor de Var B: \n");
+scanf("%i", &var_B);
+
+var_tmp = var_A;
+var_A = var_B;
+var_B = var_tmp;
+
+printf("Var A: %i | Var B:  %i\n", var_A, var_B );
+
+  return 0;
+}
