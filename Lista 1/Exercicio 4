@@ -1,0 +1,61 @@
+#include <stdio.h>
+
+int main() {
+  
+
+int nro_a, nro_b, nro_c;
+
+printf("Insira o nro a:");
+scanf("%d",&nro_a);
+
+printf("Insira o nro b:");
+scanf("%d",&nro_b);
+
+printf("Insira o nro c:");
+scanf("%d",&nro_c);
+
+
+if (nro_a > nro_b){
+
+    if(nro_b > nro_c)
+
+    printf("%d  \n", nro_a);
+    printf("%d \n", nro_b);
+    printf("%d \n", nro_c);
+}
+    else
+        if (nro_a>nro_c){
+
+    printf("%d  \n", nro_a);
+    printf("%d  \n", nro_c);
+    printf("%d  \n", nro_b);
+        
+    }else
+    printf("%d  \n", nro_c);
+    printf("%d  \n", nro_a);
+    printf("%d  \n", nro_b);
+
+if(nro_a > nro_b){
+
+}
+else
+    if(nro_b > nro_c){
+    }else
+    printf("%d  \n", nro_c);
+    printf("%d  \n", nro_b);
+    printf("%d  \n", nro_a);
+
+    if(nro_a > nro_c){
+    printf("%d  \n", nro_b);
+    printf("%d  \n", nro_a);
+    printf("%d  \n", nro_c);
+    
+    }else
+    printf("%d  \n", nro_b);
+    printf("%d  \n", nro_c);
+    printf("%d  \n", nro_a);
+
+
+
+  return 0;
+}
