@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main() {
+
+float e_altura_A, e_altura_B, s_peso_ideal_A, s_peso_ideal_B;
+int e_operação;
+
+
+printf("Codigos de operação \n");
+printf("1- Masculino \n");
+printf("0- Feminino \n");
+
+
+
+printf("Entre com a altura A: ");
+scanf("%f", &e_altura_A);
+
+printf("Entre com a altura B: ");
+scanf("%f", &e_altura_B);
+
+printf("Escolha o codigo: ");
+scanf("%i", &e_operação);
+
+
+
+if(e_operação == 1){
+
+ s_peso_ideal_A = (72.7 * e_altura_A) - 58;
+ printf("Peso ideal masculino: %f.\n", s_peso_ideal_A);
+
+
+}else if (e_operação == 0)
+
+ s_peso_ideal_B = (62.1 * e_altura_B) - 44.7;
+ printf("Peso ideal feminino: %f.\n", s_peso_ideal_B);
+ 
+
+return 0;
+}
