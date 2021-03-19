@@ -1,0 +1,37 @@
+algoritimo
+
+1- o usuario deve entrar com o valor de R1
+2- o usuario deve entrar com o valor de R2
+3- o usuario deve entrar com o valor de R3
+4- o usuario deve entrar com o valor de R4
+5- realizar o calculo = Req = R1+R2+R3+R4
+6- mostrar o resultado de Req
+
+#include <stdio.h>
+
+int main(void) {
+  
+int e_R1, e_R2, e_R3, e_R4, e_REQ;
+
+
+printf("Calculo Resistencia em serie \n \n");
+
+
+printf("Digite o valor de R1:");
+scanf("%d", &e_R1);
+
+printf("Digite o valor de R2:");
+scanf("%d", &e_R2);
+
+printf("Digite o valor de R3:");
+scanf("%d", &e_R3);
+
+printf("Digite o valor de R4:");
+scanf("%d", &e_R4);
+
+e_REQ = (e_R1 + e_R2 + e_R3 + e_R4);
+printf("Req: %d Ω \n", e_REQ);
+
+
+  return 0;
+}
