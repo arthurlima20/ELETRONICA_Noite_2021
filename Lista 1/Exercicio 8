@@ -1,0 +1,48 @@
+algoritimo
+
+1- o usuario deve entrar com o valor de R1
+2- o usuario deve entrar com o valor de R2
+3- o usuario deve entrar com o valor de R3
+4- o usuario deve entrar com o valor de R4
+5- realizar o calculo = Req1 = R1*R2 / R1+R2
+6- mostrar o resultado de Req1
+7- realizar o calculo = Req2 = R3*R4 / R3+R4
+8- mostrar o resultado de Req2
+9- Realizar o calculo de Req total = Req1 + Req2
+10- Mostrar o valor de Req total.
+
+
+#include <stdio.h>
+
+int main(void) {
+  
+int e_R1, e_R2, e_R3, e_R4, e_req_1, e_req_2, e_req_total;
+
+
+printf("Calculo Resistencia em paralelo \n \n");
+
+
+printf("Digite o valor de R1:");
+scanf("%d", &e_R1);
+
+printf("Digite o valor de R2:");
+scanf("%d", &e_R2);
+
+printf("Digite o valor de R3:");
+scanf("%d", &e_R3);
+
+printf("Digite o valor de R4:");
+scanf("%d", &e_R4);
+
+e_req_1 = (e_R1 * e_R2 / e_R1 + e_R2);
+printf("Req 1: %d Ω \n", e_req_1);
+
+e_req_2 = (e_R3 * e_R4 / e_R3 + e_R4);
+printf("Req 2: %d Ω \n", e_req_2);
+
+e_req_total = (e_req_1 + e_req_2);
+printf("Req total: %d Ω \n", e_req_total);
+
+
+  return 0;
+}
